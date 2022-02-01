@@ -56,7 +56,7 @@ function base64_decode (data) {
 }
     function showlink(){
        var urldes = base64_decode(document.location.href.match(/p\/\?(.+)\/?/)[1]);
-       buton.innerHTML = 'VER EVENTOS';
+       buton.innerHTML = 'VER PARTIDOS';
        buton.onclick = function (){
          location.href = urldes;
        }
